@@ -1,8 +1,3 @@
-  564  git push origin feature
-  565  git push origin feature
-  566  git push origin feature
-  567  git push origin feature
-  568  git push origin feature
   569  git commit --amend -m "Initial changes README and .gitignore - amend"
   570  git push --force
   571  git checkout main
@@ -14,3 +9,8 @@
   577  git branch
   578  git merge feature
   579  git push origin main
+  580  history > history.txt
+  581  git add history.txt
+  582  git commit --amend -m "Added history.txt"
+  583  git push origin main
+  584  git push 
